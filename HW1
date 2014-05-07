@@ -1,0 +1,24 @@
+ 
+first = "bruce"
+last = "wayne"
+age = 30
+ 
+import math
+sideA = 12.55
+sideB = 17.85
+sideC = (sideA * sideA) + (sideB * sideB)
+value = math.sqrt(sideC)
+ 
+operand1 = 95
+operand2 = 64.5
+#using operands to define variables lets you change a value once, but have it apply throughout your code wherever the variable is used
+ 
+print first, last, age
+print sideC
+print value
+print operand1 + operand2
+print operand1 - operand2
+print operand1 * operand2
+print operand1/operand2
+print operand1 % operand2
+ 
