@@ -1,0 +1,36 @@
+             Homework2A-Grades                                                                                                                                                                                      
+import math
+import sys
+test1 = int(sys.argv[1])
+test2 = int(sys.argv[2])
+test3 = int(sys.argv[3])
+test4 = int(sys.argv[4])
+ 
+avg = (test1 + test2 + test3 + test4)/4
+ 
+print "The Average Test Score is:" ,  avg
+ 
+if avg >= 90:
+        print "You got an A"
+        print "nerd!"
+elif avg  >= 80 and avg <= 89:
+        print "You got a B"
+        print "Not bad!"
+elif avg >= 70 and avg <= 79:
+        print "You got a C"
+        print "hit the books"
+elif avg >= 60 and avg <= 69:
+        print "You got a D"
+        print "what happened?"
+elif avg <= 60:
+        print "You got an F"
+        print "Get ready for summer school"
+        
+        Homework2B-Price
+        
+price = input("what is the price?")
+tax = input("what is the tax rate?")
+ 
+totalcost = (price * tax) + price
+ 
+print "The full price of this item is" , totalcost        
